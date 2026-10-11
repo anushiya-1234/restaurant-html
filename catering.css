@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(131, 8, 59);
+    color: aliceblue;
+    text-align: center;
+    padding: 35px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+    
+nav{
+    
+    background-color: rgb(131, 8, 59);
+    text-align: center;
+    margin: 0%;
+    padding:5px;
+    
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+
+}
+nav a:hover{
+    color: black;
+}
+section{
+    padding: 45px;
+    text-align: center;
+}
+section h2{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+.taste{
+    background-color:white;
+
+}
+.taste imag{
+    width: 350px;
+    max-width: 90%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 20px;
+
+    text-align: center;
+}
+.button{
+    display: inline;
+    background-color:rgb(131, 8, 59);
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+.button:hover{
+    background-color: black;
+}
+ .about{
+    display: flex;
+    justify-self: center;
+    gap: 25px;
+    flex-wrap: wrap;
+ } 
+ .about{
+    background: white;
+    width: 50px;
+    padding: 20px;
+    border-radius:12px ;
+    box-shadow: 0 4px 10px #bbb;
+ }  
+ .about img{
+    width: 7%;
+    height: 5px;
+    object-fit: cover;
+    border-radius: 2px;
+    margin-bottom:4px;
+
+ }
+ .Gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+
+ }
+ .Gallery img{
+    width: 10%;
+    min-width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 12px;
+ }
+.Menu,h2{
+    color: blueviolet;
+    text-align: center;
+
+}
+table{
+    width: 100%;
+    max-width: 850px;
+    margin:auto;
+    border-collapse: collapse;
+    background:white;
+    text-align: center;
+    
+
+}
+th,td{
+    border: 1px solid rgb(131, 8, 59);
+    padding: 12px;
+    text-align: center;
+}
+form{
+    width: 100%;
+    max-width: 550px;
+    margin: auto;
+    background-color: rgb(131, 8, 59);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgb(131, 8, 59);
+    text-align: left;
+
+}
+form label{
+    display: block;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    font-weight: bold;
+
+}
+form input{
+    form select,
+    form textarea{
+        width: 100%;
+        padding: 11px;
+        border: 1px solid rgb(131, 8, 59);
+        border-radius: 6px;
+        font-size: 15px;
+
+    }
+    form textarea{
+        height: 90px;
+        resize: vertical;
+
+    }
+}
+form button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    background:rgb(131, 8, 59);
+    color:white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+form button:hover{
+    background:white ;
+
+}
+
+ #contact p{
+    background-color: rgb(131, 8, 59);
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgb(131, 8, 59);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    padding-top: 5%;
+    margin-bottom: 0px;
+    
+    
+
+}
